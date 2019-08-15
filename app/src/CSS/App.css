@@ -19,15 +19,19 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* img {
+  height: 150px;
+  width: 150px;
+} */
+.card-container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.poke-card {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #777;
+  margin-top: 1rem;
 }
